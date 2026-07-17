@@ -152,7 +152,7 @@ http://127.0.0.1:4173/
 - [x] All local images, CV, and project assets resolve
 - [x] Hidden easter egg works with both unlock methods
 - [x] Browser console is free of JavaScript errors
-- [ ] Public GitHub repository added
+- [x] Public GitHub repository added
 - [ ] Public Vercel deployment added
 
 ## Screenshots
