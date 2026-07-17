@@ -164,5 +164,5 @@ http://127.0.0.1:4173/
 ## Submission message
 
 ```text
-[CX-INT-2026-GEN-0210] Web Project 1 Done — GitHub: [repository link] | Live: [Vercel link]
+[CX-INT-2026-GEN-0210] Web Project 1 Done — GitHub: https://github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad | Live: [Vercel link]
 ```
