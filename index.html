@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mansoor Ahmad - software engineering student, frontend and React Native developer based in Attock, Pakistan.">
+  <meta name="theme-color" content="#f3f1eb">
+  <title>Mansoor Ahmad | Software Engineering Student</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem('portfolio-theme') || 'light';
+    } catch {
+      document.documentElement.dataset.theme = 'light';
+    }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="page-loader" id="pageLoader" role="status" aria-label="Loading Mansoor Ahmad's portfolio">
+    <div class="loader-shell" aria-hidden="true">
+      <div class="loader-nav"><span></span><span></span></div>
+      <div class="loader-rule"></div>
+      <div class="loader-grid">
+        <div>
+          <span class="loader-kicker"></span>
+          <span class="loader-line loader-line-wide"></span>
+          <span class="loader-line"></span>
+          <span class="loader-line loader-line-short"></span>
+        </div>
+        <span class="loader-portrait"></span>
+      </div>
+      <p>Preparing the experience <span></span><span></span><span></span></p>
+    </div>
+  </div>
+  <noscript><style>.page-loader{display:none!important}</style></noscript>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="logo" href="#top" aria-label="Mansoor Ahmad, home">
+        <span class="logo-avatar" aria-hidden="true"><img src="assets/mansoor-portfolio.jpg" alt="" width="900" height="1350"></span>
+        <span class="logo-name">Mansoor Ahmad</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true"></span>
+          <span class="theme-label">Dark</span>
+        </button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container" id="hero" aria-labelledby="hero-title">
+      <div class="hero-kicker reveal">
+        <span>Portfolio / 2026</span>
+        <span>Attock City, Pakistan</span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Hello, I am Mansoor.</p>
+          <h1 id="hero-title">I turn ideas into <em>clear, useful</em> digital experiences.</h1>
+          <p class="typed-line">Currently <span id="typedText" aria-live="polite"></span><span class="cursor" aria-hidden="true"></span></p>
+          <div class="hero-cta">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="assets/Mansoor-Ahmad-CV.pdf" download>Download my CV <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <aside class="hero-note profile-note reveal" aria-label="Profile photo and current focus">
+          <div class="profile-image-wrap">
+            <div class="profile-image-crop">
+              <img src="assets/mansoor-portfolio.jpg" alt="Portrait of Mansoor Ahmad" width="900" height="1350" fetchpriority="high">
+            </div>
+          </div>
+          <div class="profile-caption">
+            <span class="note-number">01</span>
+            <div><p class="note-label">Current focus</p><p>Frontend and mobile app development.</p></div>
+          </div>
+        </aside>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to discover the about section">
+        <span>Scroll to discover</span><span class="scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container section-grid">
+        <div class="section-index reveal">
+          <span>01</span>
+          <h2 id="about-title">About</h2>
+        </div>
+        <div class="section-content">
+          <p class="section-lead reveal">I am a software engineering student building practical web and mobile experiences.</p>
+          <div class="about-columns reveal">
+            <p>I have hands-on project experience with React Native, Firebase, JavaScript, PHP, SQL, authentication, CRUD operations, notifications, REST APIs, and PDF reporting. I enjoy turning real requirements into interfaces that are clear and useful.</p>
+            <p>I am currently completing a BS in Software Engineering at COMSATS University Islamabad, Attock Campus. Alongside my studies, the CloudExify internship is helping me deepen my frontend and full-stack development skills.</p>
+          </div>
+          <dl class="facts reveal">
+            <div><dt>Education</dt><dd>BS Software Engineering</dd></div>
+            <div><dt>University</dt><dd>COMSATS, Attock Campus</dd></div>
+            <div><dt>Graduation</dt><dd>Expected 2027</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container section-grid">
+        <div class="section-index reveal">
+          <span>02</span>
+          <h2 id="skills-title">Capabilities</h2>
+        </div>
+        <div class="section-content">
+          <div class="skills-heading reveal">
+            <p class="section-lead">A growing toolkit for building on the modern web.</p>
+            <p>These bars animate once when they enter the viewport.</p>
+          </div>
+          <div class="skill-list">
+            <div class="skill reveal" data-percent="85">
+              <div class="skill-meta"><span>HTML & CSS</span><span>85%</span></div>
+              <div class="bar"><div class="fill"></div></div>
+            </div>
+            <div class="skill reveal" data-percent="80">
+              <div class="skill-meta"><span>React Native & Expo</span><span>80%</span></div>
+              <div class="bar"><div class="fill"></div></div>
+            </div>
+            <div class="skill reveal" data-percent="75">
+              <div class="skill-meta"><span>JavaScript</span><span>75%</span></div>
+              <div class="bar"><div class="fill"></div></div>
+            </div>
+            <div class="skill reveal" data-percent="72">
+              <div class="skill-meta"><span>Firebase & databases</span><span>72%</span></div>
+              <div class="bar"><div class="fill"></div></div>
+            </div>
+          </div>
+          <ul class="tool-cloud reveal" aria-label="Additional skills">
+            <li>C++</li><li>Python</li><li>Java</li><li>PHP</li><li>SQL</li><li>Git & GitHub</li><li>REST APIs</li><li>Postman</li><li>OOP</li><li>DBMS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-top reveal">
+          <div class="section-index inline-index"><span>03</span><h2 id="projects-title">Selected work</h2></div>
+          <p class="section-lead">Projects where learning becomes something tangible.</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All <span>03</span></button>
+          <button class="filter" type="button" data-filter="react-native" aria-pressed="false">React Native</button>
+          <button class="filter" type="button" data-filter="firebase" aria-pressed="false">Firebase</button>
+          <button class="filter" type="button" data-filter="productivity" aria-pressed="false">Productivity</button>
+        </div>
+        <p class="filter-status" id="filterStatus" aria-live="polite">Showing all 3 projects.</p>
+        <div class="project-grid" aria-live="polite">
+          <article class="project-card reveal" id="quizmate" data-tags="react-native,firebase,productivity">
+            <div class="project-visual quizmate-showcase">
+              <span class="visual-label">QuizMate / App showcase</span>
+              <img class="quizmate-logo" src="assets/projects/quizmate/logo.png" alt="QuizMate app logo" width="360" height="360" loading="lazy" decoding="async">
+              <div class="quizmate-gallery">
+                <figure class="quizmate-shot quizmate-shot-primary">
+                  <img src="assets/projects/quizmate/home.jpg" alt="QuizMate home dashboard showing subjects, attendance, tasks, schedules, and exams" width="1800" height="1013" loading="lazy" decoding="async">
+                  <figcaption><span>01</span> Home dashboard</figcaption>
+                </figure>
+                <figure class="quizmate-shot quizmate-shot-secondary">
+                  <img src="assets/projects/quizmate/calendar.jpg" alt="QuizMate calendar screen showing academic events and reminders" width="1800" height="1013" loading="lazy" decoding="async">
+                  <figcaption><span>02</span> Calendar & reminders</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><p class="project-number">01 / Featured</p><h3>QuizMate</h3></div>
+              <p>A student productivity app for managing quizzes, assignments, schedules, exams, attendance, reminders, notifications, dashboard views, and persistent login. The gallery above highlights its home dashboard and calendar experience.</p>
+              <ul><li>React Native</li><li>Firebase</li><li>REST APIs</li></ul>
+            </div>
+          </article>
+          <article class="project-card reveal" id="daily-milk-tracker" data-tags="react-native,productivity">
+            <div class="project-visual milk-showcase">
+              <span class="visual-label">Daily Milk Tracker / App screens</span>
+              <div class="milk-brand">
+                <img src="assets/projects/daily-milk-tracker/logo.png" alt="Daily Milk Tracker app logo" width="58" height="52" loading="lazy" decoding="async">
+                <span>Daily Milk Tracker</span>
+              </div>
+              <div class="milk-screens">
+                <figure class="milk-screen milk-screen-home">
+                  <img src="assets/projects/daily-milk-tracker/home.png" alt="Daily Milk Tracker home screen for entering cow milk, buffalo milk, and yogurt quantities" width="392" height="1280" loading="lazy" decoding="async">
+                  <figcaption><span>01</span> Daily entry</figcaption>
+                </figure>
+                <figure class="milk-screen milk-screen-monthly">
+                  <img src="assets/projects/daily-milk-tracker/monthly-records.png" alt="Daily Milk Tracker monthly records screen with production summary, bill, and PDF export" width="509" height="1280" loading="lazy" decoding="async">
+                  <figcaption><span>02</span> Monthly records</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><p class="project-number">02 / Mobile</p><h3>Daily Milk Tracker</h3></div>
+              <p>Tracks cow milk, buffalo milk, and yogurt production with daily calculations, editable monthly records, production summaries, billing, and downloadable PDF reports.</p>
+              <ul><li>React Native</li><li>CRUD</li><li>PDF Reports</li></ul>
+            </div>
+          </article>
+          <article class="project-card reveal" id="grocery-management" data-tags="react-native,productivity">
+            <div class="project-visual grocery-showcase">
+              <span class="visual-label">Grocery App / App screens</span>
+              <div class="grocery-brand">
+                <img src="assets/projects/grocery-app/logo.png" alt="Grocery App logo" width="45" height="50" loading="lazy" decoding="async">
+                <span>Grocery App</span>
+              </div>
+              <div class="grocery-screens">
+                <figure class="grocery-screen grocery-screen-home">
+                  <img src="assets/projects/grocery-app/home.png" alt="Grocery App home screen for creating categories and quickly adding shopping items" width="738" height="1600" loading="lazy" decoding="async">
+                  <figcaption><span>01</span> List manager</figcaption>
+                </figure>
+                <figure class="grocery-screen grocery-screen-pricing">
+                  <img src="assets/projects/grocery-app/pricing-export.png" alt="Grocery App pricing and export screen for item totals and PDF export" width="738" height="1600" loading="lazy" decoding="async">
+                  <figcaption><span>02</span> Pricing & export</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="project-info">
+              <div><p class="project-number">03 / Mobile</p><h3>Grocery Management App</h3></div>
+              <p>A simple grocery list manager with category-based item entry, purchased and pending progress, optional pricing, cost totals, automatic saving, and PDF export.</p>
+              <ul><li>React Native</li><li>State Management</li><li>PDF Export</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <div class="section-index inline-index"><span>04</span><p>Contact</p></div>
+          <h2 id="contact-title">Have an idea?<br><em>Let's shape it.</em></h2>
+          <p>I am open to frontend and mobile development internships, collaborations, and thoughtful conversations about software.</p>
+          <div class="contact-links" aria-label="Contact and social links">
+            <a href="mailto:i.mansoor313@gmail.com">i.mansoor313@gmail.com <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Mansoor313-sami" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/mansoor-ahmad313" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="How should I address you?" required>
+            <small class="field-error" data-error-for="name"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <small class="field-error" data-error-for="email"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Tell me about your idea</label>
+            <textarea id="message" name="message" rows="4" placeholder="A few details about your project..." required></textarea>
+            <small class="field-error" data-error-for="message"></small>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><span class="logo-avatar" aria-hidden="true"><img src="assets/mansoor-portfolio.jpg" alt="" width="900" height="1350" loading="lazy" decoding="async"></span><p>Designed and built with care.</p></div>
+      <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      <p>© <span id="year"></span> Mansoor Ahmad</p>
+    </div>
+  </footer>
+
+  <aside class="easter-egg" id="easterEgg" role="status" aria-live="polite" hidden>
+    <button class="easter-egg-close" id="easterEggClose" type="button" aria-label="Close secret achievement">&times;</button>
+    <span class="easter-egg-icon" aria-hidden="true">★</span>
+    <div>
+      <p class="easter-egg-kicker">Achievement unlocked</p>
+      <p class="easter-egg-title">You found Mansoor's hidden pixel!</p>
+      <p class="easter-egg-copy">Curiosity is a developer superpower.</p>
+    </div>
+  </aside>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
