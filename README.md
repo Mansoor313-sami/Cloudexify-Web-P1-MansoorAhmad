@@ -10,7 +10,7 @@ A responsive personal portfolio created for **CloudExify Full Stack Web Developm
 | Registration number | `CX-INT-2026-GEN-0210` |
 | Build track | Swiss Editorial |
 | GitHub repository | [Cloudexify-Web-P1-MansoorAhmad](https://github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad) |
-| Live Vercel URL | Pending deployment |
+| Live Vercel URL | [mansoorahmed-portfolio.vercel.app](https://mansoorahmed-portfolio.vercel.app) |
 
 ## About the portfolio
 
@@ -131,13 +131,14 @@ Example local address:
 http://127.0.0.1:4173/
 ```
 
-## Deploy to Vercel
+## Deployment
 
-1. Push the project to the GitHub repository named `Cloudexify-Web-P1-MansoorAhmad`.
-2. Import the repository into Vercel.
-3. Select **Other** as the framework preset.
-4. Leave the build command empty.
-5. Deploy and replace the pending repository and live URL fields in this README.
+The portfolio is publicly deployed on Vercel directly from the GitHub repository.
+
+- **Live website:** [https://mansoorahmed-portfolio.vercel.app](https://mansoorahmed-portfolio.vercel.app)
+- **Source code:** [github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad](https://github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad)
+- **Framework preset:** Other / Static
+- **Build command:** None
 
 ## Verification checklist
 
@@ -153,7 +154,7 @@ http://127.0.0.1:4173/
 - [x] Hidden easter egg works with both unlock methods
 - [x] Browser console is free of JavaScript errors
 - [x] Public GitHub repository added
-- [ ] Public Vercel deployment added
+- [x] Public Vercel deployment added
 
 ## Screenshots
 
@@ -164,5 +165,5 @@ http://127.0.0.1:4173/
 ## Submission message
 
 ```text
-[CX-INT-2026-GEN-0210] Web Project 1 Done — GitHub: https://github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad | Live: [Vercel link]
+[CX-INT-2026-GEN-0210] Web Project 1 Done — GitHub: https://github.com/Mansoor313-sami/Cloudexify-Web-P1-MansoorAhmad | Live: https://mansoorahmed-portfolio.vercel.app
 ```
